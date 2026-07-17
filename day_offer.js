@@ -1,4 +1,4 @@
-const dayNumber = 6; 
+
 
 switch (dayNumber) {
     case 1:

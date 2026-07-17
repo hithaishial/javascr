@@ -1,4 +1,4 @@
-let statusCode = 404; 
+ 
 
 switch (statusCode) {
     case 200:

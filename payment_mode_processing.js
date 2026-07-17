@@ -1,4 +1,3 @@
-let paymentMode = "CARD"; 
 
 switch (paymentMode) {
     case "UPI":
