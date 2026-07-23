@@ -1,10 +1,10 @@
-let numbers = [39, 98, 654, 16, 82]
+let numbers1 = [39, 98, 654, 16, 82]
 let smallest = numbers[0];
 
-for(let i=1; i<numbers.length; i++){
+for(let i=1; i<numbers1.length; i++){
 
-    if(smallest < numbers[i]){
-        smallest = numbers[i];
+    if(smallest > numbers1[i]){
+        smallest = numbers1[i];
     }
 
 }

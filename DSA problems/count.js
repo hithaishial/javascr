@@ -1,12 +1,12 @@
-let numbers = [87, 98, 1008, 334, 278, 645, 7, 890]
-
-let count = 0;
+let numbers2 = [87, 98, 1008, 334, 278, 645, 7, 890]
 
 function countEvenNumbers(){
 
-    for(let i =0; i < numbers.length; i++){
+    let count = 0;
+    
+    for(let i =0; i < numbers2.length; i++){
 
-    if(numbers[i]%2 == 0){
+    if(numbers2[i] % 2 == 0){
 
         count++;
 
@@ -19,9 +19,11 @@ console.log("the count of even numbers is: ", count);
 
 function countOddNumbers(){
 
-    for(let i = 0; i < numbers.length; i++){
+    let count = 0;
 
-        if(number[i] % 2 != 0){
+    for(let i = 0; i < numbers2.length; i++){
+
+        if(numbers2[i] % 2 == 1){
 
             count++;
         }

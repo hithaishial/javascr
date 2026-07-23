@@ -3,7 +3,7 @@ let largest = oddNumbers[0];
 
 for(let i = 1; i < oddNumbers.length; i++){
 
-    if(oddNumbers[i]> largest){
+    if(oddNumbers[i] > largest){
 
         largest = oddNumbers[i];
     }
