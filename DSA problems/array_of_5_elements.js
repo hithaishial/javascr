@@ -37,7 +37,42 @@ function printOddIndexes() {
     }
 }
 
+function printSumAtEvenIndexes(){
+    let marks = [56, 89, 91, 44, 74, 75, 14, 34, 63]
+
+    let sum = 0;
+    
+    for(let i = 0; i < marks.length; i++){
+
+        if(i % 2 === 0){
+
+            sum += marks[i];
+        }
+    }
+
+    console.log("The sum of elements at even indexes is: ", sum)
+}
+
+function printSumAtOddIndexes(){
+
+    let importantDatesOfTheMonth = [2, 5, 7, 10, 13, 14, 18, 21, 26, 29, 31]
+
+    let sum = 0;
+
+    for(let i = 0; i < importantDatesOfTheMonth.length; i++){
+
+        if(i % 2 === 1){
+
+            sum += importantDatesOfTheMonth[i];
+        }
+    }
+
+    console.log("The sum of elements at odd indexes is: ", sum);
+}
+
 printArray();
 reverseTheArray();
 printEvenIndexes();
 printOddIndexes();
+printSumAtEvenIndexes();
+printSumAtOddIndexes();
