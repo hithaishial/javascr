@@ -32,5 +32,39 @@ function countOddNumbers(){
     console.log("the count of odd numbers is: ", count);
 }
 
+function searchForNumber(){
+
+    let num = [12, 10, 37, 8475, 38, 901, 645, 77, 23]
+
+    searchNumber = 901;
+
+    for(let i = 0; i < num.length; i++){
+
+        if(searchNumber == num[i]){
+
+            console.log("the index of the search number is: ", i);
+        }
+    }
+}
+
+function countOfReccuringElements(){
+
+    let colors = ["red", "green", "blue", "green", "pink", "red", "pink", "black", "pink", "red", "pink"]
+    let reccuringElement = "pink";
+    let count = 0;
+
+    for(let i = 0; i < colors.length; i++){
+
+        if(reccuringElement === colors[i]){
+
+            count++;
+        }
+    }
+
+    console.log("The no.of times the selected element recurring is: ", count);
+}
+
 countEvenNumbers();
 countOddNumbers();
+searchForNumber();
+countOfReccuringElements();
